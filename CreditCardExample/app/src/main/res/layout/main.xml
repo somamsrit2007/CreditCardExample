@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/enter_card_balance"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/enter_yearly_rate"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/enter_minimun"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/months_remaining"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/intrest_paid_will_be_in"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#726969"
+            android:text="@string/intrest_paid"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edit5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#563535"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bnt"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compute" />
+
+    <Button
+        android:id="@+id/bnt1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear" />
+
+
+</LinearLayout>
